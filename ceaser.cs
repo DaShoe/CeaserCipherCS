@@ -50,7 +50,7 @@ namespace encryption // Note: actual namespace depends on the project name.
                 else
                 {
                     thinking = thinking - key;
-                    if (thinking < 100)
+                    if (thinking < 97)
                     {
                         thinking = thinking + 26;
                     }
